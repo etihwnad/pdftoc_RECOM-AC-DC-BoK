@@ -1,0 +1,111 @@
+(6) Preface from RECOM Management
+(8) Preface from the Author
+(10) Table of Contents
+(14) 1 A Historical Introduction
+(23) 2 Linear AC/DC Power Supplies
+(28) 3 Apparent, Reactive and Active Power 
+(32) 4 AC Theory
+(38) 5 Passive Components
+	(38) 5.1 Capacitors
+		(38) 5.1.1. Class X and Y capacitors
+		(40) 5.1.2 Electrolytic capacitors
+			(41) 5.1.2.1 Design considerations of electrolytic capacitors
+			(43) 5.1.2.2 Electrolytic capacitor lifetime calculation
+			(44) 5.1.2.3 Deriving ripple current from electrolytic capacitor temperature rise
+	(46) 5.2 Common mode chokes
+		(47) 5.2.1 EMC common mode filter worked example
+(50) 6 Active Components
+	(50) 6.1 Silicon MOSFET
+	(53) 6.2 SiC MOSFET
+	(54) 6.3 IGBT
+	(55) 6.4 GaN HEMT
+		(57) 6.4.1 GaN Transistor gate driver considerations
+		(60) 6.4.2 Power transistor layout considerations
+	(61) 6.5 Unplanned turn-on due to the effect of the Miller capacitance
+	(62) 6.6 Unplanned turn-on due to the effect of the parasitic inductances Lgate and Lemitter
+(67) 7 Power Factor Correction
+	(67) 7.1 Passive PFC
+		(69) 7.1.1 Valley Fill PFC
+	(70) 7.2 Active PFC
+		(70) 7.2.1 DCM
+		(71) 7.2.2 CCM
+		(72) 7.2.3 CrCM
+		(73) 7.2.4 Mixed-Mode
+		(74) 7.2.5 Interleaved
+		(75) 7.2.6 Bridgeless (totem pole)
+(79) 8 AC/DC Converter Topologies
+	(79) 8.1 Single-Ended Flyback
+		(83) 8.1.1 Single-ended flyback snubber networks
+		(85) 8.1.3 Ringing snubbers
+		(88) 8.1.2 Active clamp and regenerative snubbers
+			(88) 8.1.2.1 High-side active clamp
+			(89) 8.2.1.2 Low-side active clamp
+			(91) 8.2.1.3 Regenerative clamp
+	(91) 8.3 Quasi-resonant flyback converter
+		(92) 8.3.1 Resonant frequency of a transformer in QR mode
+	(92) 8.4 Half-Bridge Resonant Mode converter
+	(94) 8.5 Full-bridge resonant mode converter
+		(94) 8.5.1 Phase-shifted resonant full bridge
+		(95) 8.5.2 Resonant full bridge
+	(98) 8.6 Single-Ended Forward converter
+		(102) 8.6.1 Interleaved Single-Ended Forward
+		(106) 8.6.2 Current-Fed Single-Ended Forward converter
+	(108) 8.7 Two-Transistor topologies
+		(108) 8.7.1 Two-Transistor Forward converter
+		(110) 8.7.2 Push-Pull Forward converter
+		(111) 8.7.3 Current-Fed Push-Pull Forward converter
+	(114) 8.8 Using paralleled transformers to increase the power
+	(117) 8.9 Poly-phase supplies
+		(118) 8.9.1 Three-phase PFC
+(121) 9 Transformerless AC power supplies
+	(121) 9.1 Capacitively-coupled AC/DC
+	(123) 9.2 Non-Isolated Buck regulator
+	(124) 9.3 High voltage linear regulators
+	(125) 9.4 Off-line regulator IC
+(128) 10 Wireless power
+	(130) 10.1 Resonant wireless power transfer
+	(130) 10.2 Inductive wireless power transfer
+	(132) 10.3 PCB inductive power transfer
+(137) 11 Feedback
+	(138) 11.1 Measuring loop stability
+	(142) 11.2 Type 1 feedback loop compensation calculation
+	(143) 11.3 Type 2 feedback loop compensation
+	(146) 11.5 Optocoupler feedback loop compensation
+	(149) 11.6 Secondary-side feedback compensation
+	(150) 11.7 Magnetic feedback
+		(150) 11.7.1 Secondary-side powered PWM feedback transformer
+		(151) 11.7.2 Direct magnetic feedback
+		(152) 11.7.3 Primary-side driven magnetic feedback
+	(154) 11.8 Capacitively coupled feedback
+	(156) 11.9 Primary-side regulation
+(159) 12 Low Standby Power Consumption Techniques
+	(160) 12.1 Passive losses
+		(160) 12.1.1 HV start up disconnect
+		(162) 12.1.2 Half-wave HV start up
+		(162) 12.1.3 Bleeder resistor losses
+	(163) 12.2 Feedback losses
+	(165) 12.2 Active losses
+		(165) 12.2.1 Clamp losses
+		(166) 12.2.2 Variable switching frequency
+		(167) 12.2.3 Variable valley switching
+		(167) 12.2.4 Pulse skipping
+		(168) 12.2.5 Synchronous rectification
+		(170) 12.2.6 Output load detection (zero-power)
+	(172) 12.3 Measuring standby power consumption
+(173) 13 Measuring AC
+	(173) 13.1 AC voltage measurements
+		(177) 13.1.1 High frequency AC voltage measurements
+	(178) 13.2 AC current measurement techniques
+		(178) 13.2.1 Precision shunt resistor
+		(180) 13.2.2 Shunt + current mirror
+		(181) 13.2.3 Shunt + isolation amplifier
+	(182) 13.3 Current transformer
+		(184) 13.3.1 Compensated CT (AC zero-flux)
+	(184) 13.4 Rogowski Coil
+	(185) 13.5 Hall-effect current sensor
+	(187) 13.6 Flux-gate current sensor
+	(188) 13.7 GMR current sensor
+(190) References and Further Reading
+(190) Recommended Application Notes
+(191) About the Author
+(191) About RECOM
